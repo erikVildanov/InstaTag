@@ -7,8 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B22223D1D96627200EA1A01 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B22223C1D96627200EA1A01 /* CollectionViewCell.swift */; };
+		8B22223F1D9662B000EA1A01 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B22223E1D9662B000EA1A01 /* ImageCache.swift */; };
+		8B2222411D9662FF00EA1A01 /* InstaAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2222401D9662FF00EA1A01 /* InstaAPI.swift */; };
+		8B2222431D96633200EA1A01 /* CollectionDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2222421D96633200EA1A01 /* CollectionDataSource.swift */; };
+		8B2222451D96636A00EA1A01 /* CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2222441D96636A00EA1A01 /* CollectionView.swift */; };
+		8B2222471D9664EC00EA1A01 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2222461D9664EC00EA1A01 /* LoginViewController.swift */; };
+		8B2222491D96650E00EA1A01 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2222481D96650E00EA1A01 /* LoginView.swift */; };
+		8B8170931D9856B900A021BC /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8170921D9856B900A021BC /* Image.swift */; };
+		8B8170951D98578B00A021BC /* FeedParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8170941D98578B00A021BC /* FeedParser.swift */; };
+		8BAFF5871D9980F2004F5670 /* DeteilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BAFF5861D9980F2004F5670 /* DeteilViewController.swift */; };
+		8BAFF5891D99813F004F5670 /* DeteilView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BAFF5881D99813F004F5670 /* DeteilView.swift */; };
+		8BC181FE1D9A72D7009B11A2 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC181FD1D9A72D7009B11A2 /* ActivityView.swift */; };
+		8BC182011D9A9359009B11A2 /* Fevarites+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC181FF1D9A9359009B11A2 /* Fevarites+CoreDataClass.swift */; };
+		8BC182041D9A9914009B11A2 /* CoreDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC182031D9A9914009B11A2 /* CoreDataService.swift */; };
+		8BC182081D9AA2CD009B11A2 /* ConnectingToNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC182071D9AA2CD009B11A2 /* ConnectingToNetwork.swift */; };
 		8BE070B71D9660D60029DCA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE070B61D9660D60029DCA2 /* AppDelegate.swift */; };
-		8BE070B91D9660D60029DCA2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE070B81D9660D60029DCA2 /* ViewController.swift */; };
+		8BE070B91D9660D60029DCA2 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE070B81D9660D60029DCA2 /* CollectionViewController.swift */; };
 		8BE070BC1D9660D60029DCA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BE070BA1D9660D60029DCA2 /* Main.storyboard */; };
 		8BE070BF1D9660D60029DCA2 /* InstaTag.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8BE070BD1D9660D60029DCA2 /* InstaTag.xcdatamodeld */; };
 		8BE070C11D9660D60029DCA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BE070C01D9660D60029DCA2 /* Assets.xcassets */; };
@@ -16,9 +31,24 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8B22223C1D96627200EA1A01 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		8B22223E1D9662B000EA1A01 /* ImageCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
+		8B2222401D9662FF00EA1A01 /* InstaAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstaAPI.swift; sourceTree = "<group>"; };
+		8B2222421D96633200EA1A01 /* CollectionDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionDataSource.swift; sourceTree = "<group>"; };
+		8B2222441D96636A00EA1A01 /* CollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionView.swift; sourceTree = "<group>"; };
+		8B2222461D9664EC00EA1A01 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		8B2222481D96650E00EA1A01 /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		8B8170921D9856B900A021BC /* Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		8B8170941D98578B00A021BC /* FeedParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedParser.swift; sourceTree = "<group>"; };
+		8BAFF5861D9980F2004F5670 /* DeteilViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeteilViewController.swift; sourceTree = "<group>"; };
+		8BAFF5881D99813F004F5670 /* DeteilView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeteilView.swift; sourceTree = "<group>"; };
+		8BC181FD1D9A72D7009B11A2 /* ActivityView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
+		8BC181FF1D9A9359009B11A2 /* Fevarites+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Fevarites+CoreDataClass.swift"; path = "../Fevarites+CoreDataClass.swift"; sourceTree = "<group>"; };
+		8BC182031D9A9914009B11A2 /* CoreDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataService.swift; sourceTree = "<group>"; };
+		8BC182071D9AA2CD009B11A2 /* ConnectingToNetwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectingToNetwork.swift; sourceTree = "<group>"; };
 		8BE070B31D9660D60029DCA2 /* InstaTag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaTag.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BE070B61D9660D60029DCA2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8BE070B81D9660D60029DCA2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8BE070B81D9660D60029DCA2 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		8BE070BB1D9660D60029DCA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8BE070BE1D9660D60029DCA2 /* InstaTag.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = InstaTag.xcdatamodel; sourceTree = "<group>"; };
 		8BE070C01D9660D60029DCA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -37,6 +67,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8B2222391D9661FF00EA1A01 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8B2222401D9662FF00EA1A01 /* InstaAPI.swift */,
+				8B8170921D9856B900A021BC /* Image.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		8B22223A1D96620800EA1A01 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8B22223C1D96627200EA1A01 /* CollectionViewCell.swift */,
+				8B2222441D96636A00EA1A01 /* CollectionView.swift */,
+				8B2222481D96650E00EA1A01 /* LoginView.swift */,
+				8BAFF5881D99813F004F5670 /* DeteilView.swift */,
+				8BC181FD1D9A72D7009B11A2 /* ActivityView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		8B22223B1D96620D00EA1A01 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8BE070B81D9660D60029DCA2 /* CollectionViewController.swift */,
+				8B2222461D9664EC00EA1A01 /* LoginViewController.swift */,
+				8BAFF5861D9980F2004F5670 /* DeteilViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
 		8BE070AA1D9660D50029DCA2 = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +117,21 @@
 		8BE070B51D9660D60029DCA2 /* InstaTag */ = {
 			isa = PBXGroup;
 			children = (
+				8B22223B1D96620D00EA1A01 /* Controller */,
+				8B22223A1D96620800EA1A01 /* View */,
+				8B2222391D9661FF00EA1A01 /* Model */,
 				8BE070B61D9660D60029DCA2 /* AppDelegate.swift */,
-				8BE070B81D9660D60029DCA2 /* ViewController.swift */,
 				8BE070BA1D9660D60029DCA2 /* Main.storyboard */,
 				8BE070C01D9660D60029DCA2 /* Assets.xcassets */,
 				8BE070C21D9660D60029DCA2 /* LaunchScreen.storyboard */,
 				8BE070C51D9660D60029DCA2 /* Info.plist */,
 				8BE070BD1D9660D60029DCA2 /* InstaTag.xcdatamodeld */,
+				8B22223E1D9662B000EA1A01 /* ImageCache.swift */,
+				8B2222421D96633200EA1A01 /* CollectionDataSource.swift */,
+				8B8170941D98578B00A021BC /* FeedParser.swift */,
+				8BC181FF1D9A9359009B11A2 /* Fevarites+CoreDataClass.swift */,
+				8BC182031D9A9914009B11A2 /* CoreDataService.swift */,
+				8BC182071D9AA2CD009B11A2 /* ConnectingToNetwork.swift */,
 			);
 			path = InstaTag;
 			sourceTree = "<group>";
@@ -99,6 +168,7 @@
 				TargetAttributes = {
 					8BE070B21D9660D60029DCA2 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = D423L8TC7V;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -139,8 +209,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BC182041D9A9914009B11A2 /* CoreDataService.swift in Sources */,
+				8BAFF5871D9980F2004F5670 /* DeteilViewController.swift in Sources */,
+				8B2222471D9664EC00EA1A01 /* LoginViewController.swift in Sources */,
+				8BC182081D9AA2CD009B11A2 /* ConnectingToNetwork.swift in Sources */,
+				8B8170931D9856B900A021BC /* Image.swift in Sources */,
+				8B22223F1D9662B000EA1A01 /* ImageCache.swift in Sources */,
 				8BE070BF1D9660D60029DCA2 /* InstaTag.xcdatamodeld in Sources */,
-				8BE070B91D9660D60029DCA2 /* ViewController.swift in Sources */,
+				8BE070B91D9660D60029DCA2 /* CollectionViewController.swift in Sources */,
+				8BC182011D9A9359009B11A2 /* Fevarites+CoreDataClass.swift in Sources */,
+				8B22223D1D96627200EA1A01 /* CollectionViewCell.swift in Sources */,
+				8BAFF5891D99813F004F5670 /* DeteilView.swift in Sources */,
+				8BC181FE1D9A72D7009B11A2 /* ActivityView.swift in Sources */,
+				8B2222431D96633200EA1A01 /* CollectionDataSource.swift in Sources */,
+				8B8170951D98578B00A021BC /* FeedParser.swift in Sources */,
+				8B2222411D9662FF00EA1A01 /* InstaAPI.swift in Sources */,
+				8B2222451D96636A00EA1A01 /* CollectionView.swift in Sources */,
+				8B2222491D96650E00EA1A01 /* LoginView.swift in Sources */,
 				8BE070B71D9660D60029DCA2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,6 +347,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = D423L8TC7V;
 				INFOPLIST_FILE = InstaTag/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = BOTcompany.InstaTag;
@@ -274,6 +360,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = D423L8TC7V;
 				INFOPLIST_FILE = InstaTag/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = BOTcompany.InstaTag;
@@ -301,6 +388,7 @@
 				8BE070CA1D9660D60029DCA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

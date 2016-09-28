@@ -17,6 +17,25 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        let nav = UINavigationController()
+        let mainWiew = LoginViewController(nibName: nil, bundle: nil)
+        nav.viewControllers = [mainWiew]
+        nav.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.white]
+        
+        UINavigationBar.appearance().barTintColor = UIColor.gray
+        UINavigationBar.appearance().tintColor = UIColor.white
+        
+        //White status font
+        UINavigationBar.appearance().barStyle = UIBarStyle.blackTranslucent
+        
+        self.window!.rootViewController = nav
+        self.window?.makeKeyAndVisible()
+        
+        //Black status background
+        let statusBar = UIView()
+        statusBar.frame = CGRect(x: 0, y: 0, width: 320, height: 20)
+        statusBar.backgroundColor = UIColor.black
+        self.window?.rootViewController?.view.addSubview(statusBar)
         return true
     }
 
@@ -43,7 +62,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Saves changes in the application's managed object context before the application terminates.
         self.saveContext()
     }
-
+    
+    func application(_ application: UIApplication, supportedInterfaceOrientationsFor window: UIWindow?) -> UIInterfaceOrientationMask{
+        return UIInterfaceOrientationMask.portrait
+    }
     // MARK: - Core Data stack
 
     lazy var persistentContainer: NSPersistentContainer = {
